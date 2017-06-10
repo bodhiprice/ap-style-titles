@@ -9,14 +9,19 @@ This is a simple module that applies Associated Press style guidelines to string
 There are some grammar rules this doesn't cover. For example, "yet" should be capitalized when used as an adverb. This module won't catch that. It simply uses the rules above to add some consistency to title casing.
 
 ## Usage
+First install the package:
+`npm install ap-style-titles --save`
+
+Then add it to the file where you want to transform the casing of a string:
 ```javascript
 // ES5 require
 const capitalize = require('ap-style-titles').default;
 // ES6 import
 import capitalize from 'ap-style-titles';
 
-capitalize('the dangers of hiking without proper shoes');
+const capString = capitalize('the dangers of hiking without proper shoes');
+console.log(capString);
 // The Dangers of Hiking Without Proper Shoes
 ```
 
-There is another module that is similar to this one, but I ran into problems with it. If you have suggestions for improving how this works, let me know.
+If you have suggestions for improving how this works, let me know.
