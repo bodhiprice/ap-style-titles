@@ -1,0 +1,24 @@
+{
+  "name": "ap-style-titles",
+  "version": "1.0.0",
+  "description": "A package to convert strings to AP style title casing.",
+  "main": "index.js",
+  "author": "John Hannah",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-file index.js",
+    "test": "jest --coverage",
+    "prepublish": "npm run build",
+    "source": "babel-node src/index.js",
+    "prepush": "npm run test"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "husky": "^0.13.4",
+    "jest": "^20.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
