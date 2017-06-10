@@ -1,8 +1,6 @@
 src
 .vscode
 coverage
-__test__
-.eslintrc
 .babelrc
 yarn.lock
 .npmignore
