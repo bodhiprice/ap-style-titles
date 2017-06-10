@@ -17,7 +17,9 @@ const noCaps = [
   'on',
   'yet',
   'by',
-  'or'
+  'or',
+  'vs',
+  'vs.'
 ];
 
 const capFirstLetter = word =>

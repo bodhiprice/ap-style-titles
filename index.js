@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 // This file formatted with prettier https://www.npmjs.com/package/prettier
 // Words that shouldn't be capitalized
-var noCaps = ['a', 'for', 'so', 'an', 'in', 'the', 'and', 'nor', 'to', 'at', 'of', 'up', 'but', 'on', 'yet', 'by', 'or'];
+var noCaps = ['a', 'for', 'so', 'an', 'in', 'the', 'and', 'nor', 'to', 'at', 'of', 'up', 'but', 'on', 'yet', 'by', 'or', 'vs', 'vs.'];
 
 var capFirstLetter = function capFirstLetter(word) {
   return '' + word.charAt(0).toUpperCase() + word.slice(1);

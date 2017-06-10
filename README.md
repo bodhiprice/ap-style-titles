@@ -4,6 +4,7 @@ This is a simple module that applies Associated Press style guidelines to string
 ## The Rules
 - First and last word of the string are always capitalized
 - There is a list of articles, prepositions or conjunctions that have fewer than four letters on the link listed above. Words on that list are not capitalized when they are not the first or last word of the title.
+- Some special abbreviations (vs, for example) are not capitalized.
 
 ## What This Doesn't Do
 There are some grammar rules this doesn't cover. For example, "yet" should be capitalized when used as an adverb. This module won't catch that. It simply uses the rules above to add some consistency to title casing.
