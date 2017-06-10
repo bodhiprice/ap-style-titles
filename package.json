@@ -1,7 +1,7 @@
 {
   "name": "ap-style-titles",
   "version": "1.0.0",
-  "description": "A package to convert strings to AP style title casing.",
+  "description": "A simple module that applies Associated Press style guidelines to strings that are intended to be used as titles.",
   "main": "index.js",
   "author": "John Hannah",
   "license": "MIT",
