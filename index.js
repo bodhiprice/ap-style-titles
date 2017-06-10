@@ -23,14 +23,3 @@ var capitalize = function capitalize(title) {
 };
 
 exports.default = capitalize;
-'use strict';
-
-var _index = require('./index');
-
-var _index2 = _interopRequireDefault(_index);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-test('It capitalizes the string properly', function () {
-  expect((0, _index2.default)('the dangers of hiking without proper shoes')).toEqual('The Dangers of Hiking Without Proper Shoes');
-});
