@@ -20,5 +20,11 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "titles",
+    "title casing",
+    "title case",
+    "ap style titles"
+  ]
 }
